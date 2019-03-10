@@ -1,0 +1,29 @@
+{
+	"name": "decorator4gsi2obis",
+	"version": "1.0.0",
+	"description": "Implementierung eines Decorator für die Umwandlung von GrünstromIndex Werten in Multi-Tarif OBIS Kennzahlen",
+	"keywords": [
+		"gsi",
+		"mscons",
+		"obis",
+		"corrently"
+	],
+	"homepage": "https://github.com/energychain/Decorator4gsi2obis#readme",
+	"bugs": {
+		"url": "https://github.com/energychain/Decorator4gsi2obis/issues"
+	},
+	"license": "MIT",
+	"author": "Corrently Corp (kontakt@stromdao.de)",
+	"main": "lib/gsi2obis.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/energychain/Decorator4gsi2obis.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"moment": "^2.24.0",
+		"request": "^2.88.0"
+	}
+}
